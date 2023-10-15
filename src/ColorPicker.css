@@ -1,0 +1,29 @@
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #bdb5dc; 
+  }
+  
+  .color-button {
+    background-color: #4eaf4e;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+  }
+    
+  .color-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px; 
+  }
+    
+  .color-square {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5); 
+    margin: 5px;
+  }
+  
